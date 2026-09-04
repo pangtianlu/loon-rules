@@ -1,0 +1,68 @@
+# NAME: Crypto
+# DESC: Exchanges + wallets except Krak/Kraken (keep those on UK).
+# UPDATED: 2026-09-04
+
+# Binance
+DOMAIN-SUFFIX,binance.com
+DOMAIN-SUFFIX,binance.me
+DOMAIN-SUFFIX,binance.info
+DOMAIN-SUFFIX,binance.org
+DOMAIN-SUFFIX,binancezh.com
+DOMAIN-SUFFIX,binancecnt.com
+DOMAIN-SUFFIX,binanceapi.com
+DOMAIN-SUFFIX,bnbstatic.com
+DOMAIN-SUFFIX,bnbchain.org
+DOMAIN-SUFFIX,nfapi.io
+DOMAIN-SUFFIX,saasexch.com
+DOMAIN-SUFFIX,appsbinance.com
+USER-AGENT,Binance*
+
+# OKX
+DOMAIN-SUFFIX,okx.com
+DOMAIN-SUFFIX,okx.cab
+DOMAIN-SUFFIX,okg.com
+DOMAIN-SUFFIX,okex.com
+DOMAIN-SUFFIX,oklink.com
+DOMAIN-SUFFIX,okex.org
+DOMAIN-SUFFIX,okx-dns.com
+DOMAIN-SUFFIX,okx-dns1.com
+USER-AGENT,OKX*
+USER-AGENT,OKEx*
+
+# Coinbase
+DOMAIN-SUFFIX,coinbase.com
+DOMAIN-SUFFIX,coinbase.org
+DOMAIN-SUFFIX,cbhq.net
+DOMAIN-SUFFIX,coinbaseusercontent.com
+USER-AGENT,Coinbase*
+
+# Bybit
+DOMAIN-SUFFIX,bybit.com
+DOMAIN-SUFFIX,bybitglobal.com
+DOMAIN-SUFFIX,bycsi.com
+DOMAIN-SUFFIX,bybit.eu
+USER-AGENT,Bybit*
+
+# Bitget
+DOMAIN-SUFFIX,bitget.com
+DOMAIN-SUFFIX,bitgetapp.com
+DOMAIN-SUFFIX,bgweb3.com
+USER-AGENT,Bitget*
+
+# MetaMask
+DOMAIN-SUFFIX,metamask.io
+DOMAIN-SUFFIX,metamask.gov
+DOMAIN-SUFFIX,api.cx.metamask.io
+USER-AGENT,MetaMask*
+
+# Trust Wallet
+DOMAIN-SUFFIX,trustwallet.com
+DOMAIN-SUFFIX,trustwallet.app
+DOMAIN-SUFFIX,twnfts.com
+USER-AGENT,Trust*
+
+# Phantom
+DOMAIN-SUFFIX,phantom.app
+DOMAIN-SUFFIX,phantom.com
+DOMAIN-SUFFIX,phantom.to
+USER-AGENT,Phantom*
