@@ -1,0 +1,17 @@
+# NAME: UK-PayPal
+# AUTHOR: pangtianlu
+# DESC: PayPal / Braintree core domains for UK account. Assign policy to your UK node when subscribing.
+# UPDATED: 2026-09-04
+DOMAIN-SUFFIX,paypal.com
+DOMAIN-SUFFIX,paypalobjects.com
+DOMAIN-SUFFIX,paypal-objects.com
+DOMAIN-SUFFIX,paypal.me
+DOMAIN-SUFFIX,paypal-community.com
+DOMAIN-SUFFIX,paypal-mktg.com
+DOMAIN-SUFFIX,py.pl
+DOMAIN-SUFFIX,pypl.com
+DOMAIN-SUFFIX,braintreegateway.com
+DOMAIN-SUFFIX,braintreepayments.com
+DOMAIN-SUFFIX,braintree-api.com
+DOMAIN-KEYWORD,paypal
+USER-AGENT,PayPal*
