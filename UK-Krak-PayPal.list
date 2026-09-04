@@ -1,10 +1,6 @@
-# NAME: UK-Krak-PayPal
-# AUTHOR: pangtianlu
-# DESC: Combined Krak + Kraken + PayPal rules for Loon UK routing.
-# NOTE: Do not put a policy name in this file. In Loon subscribe with policy=UK node/group name.
+# NAME: UK-Krak-Kraken
+# DESC: Krak / Kraken only. PayPal moved to PayPal.list.
 # UPDATED: 2026-09-04
-
-# Krak / Kraken
 DOMAIN-SUFFIX,krak.app
 DOMAIN-SUFFIX,krakbank.app
 DOMAIN-SUFFIX,kraken.com
@@ -18,18 +14,3 @@ DOMAIN-SUFFIX,demo-futures.kraken.com
 DOMAIN-KEYWORD,kraken
 USER-AGENT,Kraken*
 USER-AGENT,Krak*
-
-# PayPal
-DOMAIN-SUFFIX,paypal.com
-DOMAIN-SUFFIX,paypalobjects.com
-DOMAIN-SUFFIX,paypal-objects.com
-DOMAIN-SUFFIX,paypal.me
-DOMAIN-SUFFIX,paypal-community.com
-DOMAIN-SUFFIX,paypal-mktg.com
-DOMAIN-SUFFIX,py.pl
-DOMAIN-SUFFIX,pypl.com
-DOMAIN-SUFFIX,braintreegateway.com
-DOMAIN-SUFFIX,braintreepayments.com
-DOMAIN-SUFFIX,braintree-api.com
-DOMAIN-KEYWORD,paypal
-USER-AGENT,PayPal*

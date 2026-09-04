@@ -1,6 +1,6 @@
 # NAME: PayPal
-# DESC: Same as PayPal.list. International PayPal only (no paypal.cn).
-# NOTE: Prefer subscribing PayPal.list and using a select policy group.
+# DESC: International PayPal / Braintree only. Do not include paypal.cn.
+# NOTE: Point this to a select group: UK / US / DIRECT.
 # UPDATED: 2026-09-04
 DOMAIN-SUFFIX,paypal.com
 DOMAIN-SUFFIX,paypalobjects.com
