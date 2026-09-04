@@ -1,5 +1,5 @@
 # NAME: Crypto
-# DESC: Exchanges + wallets except Krak/Kraken (keep those on UK).
+# DESC: Exchanges + wallets except Krak/Kraken.
 # UPDATED: 2026-09-04
 
 # Binance
@@ -51,7 +51,6 @@ USER-AGENT,Bitget*
 
 # MetaMask
 DOMAIN-SUFFIX,metamask.io
-DOMAIN-SUFFIX,metamask.gov
 DOMAIN-SUFFIX,api.cx.metamask.io
 USER-AGENT,MetaMask*
 
@@ -59,7 +58,7 @@ USER-AGENT,MetaMask*
 DOMAIN-SUFFIX,trustwallet.com
 DOMAIN-SUFFIX,trustwallet.app
 DOMAIN-SUFFIX,twnfts.com
-USER-AGENT,Trust*
+USER-AGENT,TrustWallet*
 
 # Phantom
 DOMAIN-SUFFIX,phantom.app
