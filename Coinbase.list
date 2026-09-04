@@ -1,0 +1,7 @@
+# NAME: Coinbase
+DOMAIN-SUFFIX,coinbase.com
+DOMAIN-SUFFIX,coinbase.org
+DOMAIN-SUFFIX,cbhq.net
+DOMAIN-SUFFIX,coinbaseusercontent.com
+DOMAIN-SUFFIX,wallet.coinbase.com
+USER-AGENT,Coinbase*

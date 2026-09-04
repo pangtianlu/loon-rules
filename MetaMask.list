@@ -1,0 +1,7 @@
+# NAME: MetaMask
+DOMAIN-SUFFIX,metamask.io
+DOMAIN-SUFFIX,metamask.gov
+DOMAIN-SUFFIX,portfolio.metamask.io
+DOMAIN,metamask-sdk.api.cx.metamask.io
+DOMAIN-SUFFIX,api.cx.metamask.io
+USER-AGENT,MetaMask*

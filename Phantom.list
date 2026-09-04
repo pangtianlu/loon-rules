@@ -1,0 +1,5 @@
+# NAME: Phantom
+DOMAIN-SUFFIX,phantom.app
+DOMAIN-SUFFIX,phantom.com
+DOMAIN-SUFFIX,phantom.to
+USER-AGENT,Phantom*

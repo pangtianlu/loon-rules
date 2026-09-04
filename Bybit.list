@@ -1,0 +1,6 @@
+# NAME: Bybit
+DOMAIN-SUFFIX,bybit.com
+DOMAIN-SUFFIX,bybitglobal.com
+DOMAIN-SUFFIX,bycsi.com
+DOMAIN-SUFFIX,bybit.eu
+USER-AGENT,Bybit*
