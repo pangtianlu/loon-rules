@@ -1,16 +1,46 @@
 # NAME: PayPal
-# DESC: International PayPal / Braintree only. Do not include paypal.cn.
-# NOTE: Point this to a select group: UK / US / DIRECT.
+# DESC: International PayPal family. China PayPal (paypal.cn / beibao) NOT included.
 # UPDATED: 2026-09-04
+
+# Core
 DOMAIN-SUFFIX,paypal.com
+DOMAIN-SUFFIX,paypal.me
+DOMAIN-SUFFIX,paypal.hk
+DOMAIN-SUFFIX,paypal.jp
+DOMAIN-SUFFIX,paypal.so
+DOMAIN-SUFFIX,paypal.us
 DOMAIN-SUFFIX,paypalobjects.com
 DOMAIN-SUFFIX,paypal-objects.com
-DOMAIN-SUFFIX,paypal.me
 DOMAIN-SUFFIX,paypal-community.com
 DOMAIN-SUFFIX,paypal-mktg.com
+DOMAIN-SUFFIX,paypal-apps.com
+DOMAIN-SUFFIX,paypal-biz.com
+DOMAIN-SUFFIX,paypal-business.com
+DOMAIN-SUFFIX,paypal-communication.com
+DOMAIN-SUFFIX,paypal-communications.com
+
+# Short links / brand
 DOMAIN-SUFFIX,py.pl
 DOMAIN-SUFFIX,pypl.com
+DOMAIN-SUFFIX,pypl.info
+DOMAIN-SUFFIX,pypl.net
+DOMAIN-SUFFIX,pypl.tv
+
+# Braintree
 DOMAIN-SUFFIX,braintreegateway.com
 DOMAIN-SUFFIX,braintreepayments.com
 DOMAIN-SUFFIX,braintree-api.com
+DOMAIN-SUFFIX,braintreegateway.tv
+DOMAIN-SUFFIX,braintreeps.com
+DOMAIN-SUFFIX,card.io
+
+# Related PayPal products (US)
+DOMAIN-SUFFIX,venmo.com
+DOMAIN-SUFFIX,xoom.com
+DOMAIN-SUFFIX,xoom.io
+DOMAIN-SUFFIX,hyperwallet.com
+DOMAIN-SUFFIX,simility.com
+DOMAIN-SUFFIX,paydiant.com
+
 USER-AGENT,PayPal*
+USER-AGENT,Venmo*
