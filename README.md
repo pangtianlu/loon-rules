@@ -1,29 +1,32 @@
 # Loon rules
 
-Krak / Kraken / UK PayPal remote rules for Loon.
+Krak / Kraken / UK PayPal remote rules, plus AI challenge helpers.
 
-## Subscribe (recommended)
+## Subscribe
+
+### Krak + Kraken + PayPal → UK
 
 ```text
 https://raw.githubusercontent.com/pangtianlu/loon-rules/main/UK-Krak-PayPal.list
 ```
 
-Loon: Configuration → Rules → Subscribe → Add
+Policy: `英国手动策略`
 
-- URL: the link above
-- Policy: your UK node or group name
-- Tag: `UK-Krak-PayPal`
+### AI Cloudflare / Arkose challenge → same as AI (US)
 
-Config snippet:
+```text
+https://raw.githubusercontent.com/pangtianlu/loon-rules/main/AI-Challenge.list
+```
+
+Policy: `美国手动策略` (must match your AI-Global policy)
+
+Place this **above** ad-blocking rules so `challenges.cloudflare.com` is not rejected.
+
+## Config snippet
 
 ```ini
 [Remote Rule]
-https://raw.githubusercontent.com/pangtianlu/loon-rules/main/UK-Krak-PayPal.list, policy=英国, tag=UK-Krak-PayPal, enabled=true
+https://raw.githubusercontent.com/VPSDance/ai-proxy-rules/main/rules/loon/global.list, policy=美国手动策略, tag=AI-Global, enabled=true
+https://raw.githubusercontent.com/pangtianlu/loon-rules/main/AI-Challenge.list, policy=美国手动策略, tag=AI-Challenge, enabled=true
+https://raw.githubusercontent.com/pangtianlu/loon-rules/main/UK-Krak-PayPal.list, policy=英国手动策略, tag=UK-Krak-PayPal, enabled=true
 ```
-
-Replace `英国` with your real policy name.
-
-## Separate lists
-
-- Krak + Kraken: `https://raw.githubusercontent.com/pangtianlu/loon-rules/main/UK-Krak-Kraken.list`
-- PayPal only: `https://raw.githubusercontent.com/pangtianlu/loon-rules/main/UK-PayPal.list`

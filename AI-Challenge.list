@@ -1,0 +1,25 @@
+# NAME: AI-Challenge
+# DESC: Cloudflare Turnstile / challenge + Arkose used by ChatGPT, Claude, etc.
+# NOTE: Assign the SAME policy as your AI rules (e.g. 美国手动策略).
+#       Do NOT route all of cloudflare.com here.
+# UPDATED: 2026-09-04
+
+# Cloudflare Turnstile / Challenge Platform
+DOMAIN,challenges.cloudflare.com
+DOMAIN-SUFFIX,challenges.cloudflare.com
+DOMAIN,challenge.cloudflare.com
+DOMAIN-SUFFIX,challenge.cloudflare.com
+
+# Cloudflare insights / challenge assets commonly loaded on AI sites
+DOMAIN,static.cloudflareinsights.com
+DOMAIN,cloudflareinsights.com
+
+# OpenAI / ChatGPT extra CF host
+DOMAIN,openai.com.cdn.cloudflare.net
+
+# Arkose / FunCaptcha (ChatGPT login & some checks)
+DOMAIN-SUFFIX,arkoselabs.com
+DOMAIN-SUFFIX,arkoselabs.net
+DOMAIN-SUFFIX,funcaptcha.com
+DOMAIN-SUFFIX,funcaptcha.net
+DOMAIN-SUFFIX,cdn-arkoselabs.com
